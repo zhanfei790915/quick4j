@@ -369,13 +369,13 @@ var Index = function () {
         initMenu : function(){
         	var username = $("#username").text();
         	//var username = ${userInfo.username};
-        	var menuBtn = $(".page-sidebar",pageSideBar);
-        	var handleClick = function (e){
-        		e.preventDefault();
-        	};
+        	//var menuBtn = $(".page-sidebar",pageSideBar);
+        	//var handleClick = function (e){
+        	//	e.preventDefault();
+        	//};
         	//请求URL得到的JSON对象,通过jquery添加到.sidebar-search-wrapper后面形成左边的导航栏菜单
         	$.post("rest/menu/getMenu", {username:username},function(data){
-        		alert("Data Loaded: " + data);
+        		//alert("Data Loaded: " + data);
         		var menus = $.parseJSON(data);
         		var menusTemplate = "<li><a href=\"javascript:;\">"+
         				"<i class=\"{0}\"></i>"+

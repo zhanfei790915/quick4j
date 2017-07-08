@@ -767,10 +767,10 @@ jQuery(document).ready(function() {
    Index.initDashboardDaterange();
    Index.initJQVMAP(); // init index page's custom scripts
    Index.initCalendar(); // init index page's custom scripts
-   Index.initCharts(); // init index page's custom scripts
+   //Index.initCharts(); // init index page's custom scripts
    Index.initChat();
    Index.initMiniCharts();
-   //Tasks.initDashboardWidget();
+   Tasks.initDashboardWidget();
    Index.initMenu();
 });
 </script>
