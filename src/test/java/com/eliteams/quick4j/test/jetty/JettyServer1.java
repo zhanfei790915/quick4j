@@ -12,7 +12,7 @@ import org.eclipse.jetty.webapp.WebAppContext;
  * @author zhanfei
  * @since 2017-07-09
  * */
-public class JettyServer {
+public class JettyServer1 {
 	/**
 	 * port
 	 * */
@@ -57,7 +57,7 @@ public class JettyServer {
 	}
 
 	public static void main(String[] args) {
-		JettyServer server = new JettyServer();
+		JettyServer1 server = new JettyServer1();
 		server.start();
 	}
 }
