@@ -447,7 +447,7 @@
 			<locale>zh_TW</locale>
 			<encoding>Big5</encoding>
 		</locale-encoding-mapping>
-	</locale-encoding-mapping-list>
+	</locale-encoding-mapping-list> 
 	<security-constraint>
 		<web-resource-collection>
 			<web-resource-name>Disable TRACE</web-resource-name>

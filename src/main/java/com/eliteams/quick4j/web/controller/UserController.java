@@ -49,7 +49,7 @@ public class UserController {
 			final User authUserInfo = userService.selectByUsername(user
 					.getUsername());
 			request.getSession().setAttribute("userInfo", authUserInfo);
-			return "redirect:/";
+			return "redirect:/rest/index";
 		} else {
 			// 身份验证失败
 			model.addAttribute("error", "用户名或密码错误 ！");
