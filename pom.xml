@@ -72,8 +72,6 @@
                 	<server>tomcat7</server>
                 	<!-- 此处的名字是项目发布的工程名 -->
                 	<path>/${project.name}</path>
-                	<!--<username>tomcat</username>--><!--settings.xml文件已配置，此处可不配-->
-                	<!--<password>tomcat</password>--><!--settings.xml文件已配置，此处可不配-->  
                 </configuration>
             </plugin>
 			<plugin>
