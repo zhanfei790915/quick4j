@@ -22,5 +22,11 @@ public class CommonController {
     public String index(HttpServletRequest request) {
         return "index";
     }
+    
+    
+    @RequestMapping("index1")
+    public String index1(){
+    	return "index1";
+    }
 
 }
